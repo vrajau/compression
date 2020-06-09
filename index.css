@@ -18,12 +18,12 @@ body{
 
 .tiles{
   opacity: 1;
-  width:338px;
-  height:260px;
+  height:417px;
+  width:500px;
   float:left;
   box-sizing: border-box;
   object-fit: contain;
-  transition: opacity 150ms ease-in;
+/*  transition: opacity 150ms ease-in;*/
   pointer-events: none;
   border:1px solid black; 
 }
@@ -45,31 +45,31 @@ body{
   top:0;
   left:0;
   z-index: 0;
-  width: 6760px;
-  height: 5200px;
+  width: 7000px;
+  height: 5000px;
   position: absolute;
   pointer-events: none;
 }
 
 .layer-wrapper{
   position: static;
-  width: 6760px;
-  height: 5200px;
+  width: 7000px;
+  height: 5000px;
 }
 
 #layer2{
   top:0;
   left:0;
   z-index: 0;
-  width: 6760px;
-  height: 5200px;
+  width: 7000px;
+  height: 5000px;
   position: absolute;
   pointer-events: none;
 }
 
 img{
-  width:338px;
-  height:260px;
+  height:417px;
+  width:500px;
   object-fit: cover;
   overflow: hidden;
 }
