@@ -24,7 +24,7 @@ const imgOptions = {
   root: null, //nul = equal to the viewport in this case
   threshold: 0, //how much is ON the page. 0 = as soon as it enters viewport, a little piece. 1 = 100% of the image on thepage.
   // rootMargin:"-200px -200px -200px -200px" // adss margin towards viewport
-  //   rootMargin: '500px',
+    rootMargin: '500px',
 };
 
 const imgObserver = new IntersectionObserver((entries, imgObserver) => {
