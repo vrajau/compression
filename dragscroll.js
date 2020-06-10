@@ -40,7 +40,6 @@
       cursorElement.style.top = `${(-1 * boundingBox.top * ratioHeight)}px`;
       cursorElement.style.left = `${(-1 * boundingBox.left * ratioWidth)}px`;
     };
-
     // Make sure to update minimap on window resize
     window.onresize = updateMinimap;
     window.onload = updateMinimap;   
