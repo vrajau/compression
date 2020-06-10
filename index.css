@@ -18,7 +18,7 @@
 }
 
 body{
-  font-size:16px;
+  font-size:15px;
   margin: 0;
   padding:0;
   -webkit-touch-callout: none;
@@ -142,28 +142,29 @@ img{
 .selectionText{
   font-size:12px;
   position: fixed;
-  left:20px;
-  bottom:20px;
-  width:180px;
   opacity:0;
   z-index: 9999;
   transition: all 0.5s;
   font-family: Silk-regular;
+  line-height: 15px;
 }
 
 .column-2{
-  width: 400px;
+  bottom: 20px;
   margin-left:130px;
+  width: 400px;
+  position: fixed;
 }
 
 .column-1{
+  left:20px;
+  bottom:20px;
   position: fixed;
   width: 130px;
   font-family: Silk-regular;
 }
 
 .compression{
-  box-sizing: border-box;
   top:20px;
   left:20px;
   z-index: 9999;
@@ -184,7 +185,7 @@ img{
   height: 100px;
   height: 20px;
   position: fixed;
-  z-index: 9998;
+  z-index: 9999;
   user-select: none;
   width: 300px;
   margin-left:130px;
