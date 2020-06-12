@@ -18,7 +18,7 @@
 }
 
 body{
-  font-size:15px;
+  font-size:16px;
   margin: 0;
   padding:0;
   -webkit-touch-callout: none;
@@ -30,8 +30,8 @@ body{
 }
 
 #minimap {
-  width: 250px;
-  height: 120px;
+  width: 240px;
+  height: 165px;
   border: 0.09em solid black;
   background-color: white;
   position: fixed;
@@ -141,7 +141,6 @@ body{
 }
 
 #layer15{
-  opacity:0;
   top:0;
   left:0;
   z-index: 0;
@@ -152,7 +151,6 @@ body{
 }
 
 #layer14{
-  opacity:0;
   top:0;
   left:0;
   z-index: 0;
@@ -163,7 +161,6 @@ body{
 }
 
 #layer13{
-  opacity:0;
   top:0;
   left:0;
   z-index: 0;
@@ -174,7 +171,6 @@ body{
 }
 
 #layer12{
-  opacity:0;
   top:0;
   left:0;
   z-index: 0;
@@ -185,7 +181,6 @@ body{
 }
 
 #layer10{
-  opacity:0;
   top:0;
   left:0;
   z-index: 0;
@@ -196,7 +191,6 @@ body{
 }
 
 #layer9{
-  opacity:0;
   top:0;
   left:0;
   z-index: 0;
@@ -207,7 +201,6 @@ body{
 }
 
 #layer8{
-  opacity:0;
   top:0;
   left:0;
   z-index: 0;
@@ -218,7 +211,6 @@ body{
 }
 
 #layer7{
-  opacity:0;
   top:0;
   left:0;
   z-index: 0;
@@ -239,7 +231,6 @@ body{
 }
 
 #layer5{
-  opacity:0;
   top:0;
   left:0;
   z-index: 0;
@@ -250,7 +241,6 @@ body{
 }
 
 #layer4{
-  opacity:0;
   top:0;
   left:0;
   z-index: 0;
@@ -283,7 +273,6 @@ body{
 }
 
 #layer1{
-  opacity:0;
   top:0;
   left:0;
   z-index: 0;
@@ -292,7 +281,6 @@ body{
   position: absolute;
   pointer-events: none;
 }
-
 
 img{
   height:716px;
@@ -337,7 +325,6 @@ img{
   font-family: Silk-regular;
   line-height: 22px;
 }
-
 
 /* ------ Selection Menu -------  */
 

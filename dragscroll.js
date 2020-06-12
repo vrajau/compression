@@ -12,8 +12,8 @@
       const ratioWidth = minimapElement.offsetWidth / totalWidth;
       const ratioHeight = minimapElement.offsetHeight / totalHeight;
 
-      cursorElement.style.width = `${ratioWidth * viewportWidth - 2}px`;
-      cursorElement.style.height = `${ ratioHeight * viewportHeight - 2}px`;
+      cursorElement.style.width = `${ratioWidth * viewportWidth - 3}px`;
+      cursorElement.style.height = `${ ratioHeight * viewportHeight - 3}px`;
       cursorElement.style.top = `${Math.round((-1 * boundingBox.top * ratioHeight))}px`;
       cursorElement.style.left = `${Math.round((-1 * boundingBox.left * ratioWidth))}px`;
     };
