@@ -12,7 +12,7 @@ for(i=1; i < 301; i++){
 
 //Whatsapp
 for(i=1; i < 301; i++){
-    $( "#layer13" ).append( "<div class=tiles class=fadein>" + "<img data-src=images/Whatsapp/" + i + ".jpg>" + "</div>");
+    $( "#layer13" ).append( "<div class=tiles class=fadein>" + "<img data-src=images/WhatsApp/" + i + ".jpg>" + "</div>");
   }
 
 //Tumblr
