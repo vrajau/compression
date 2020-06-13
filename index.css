@@ -17,6 +17,38 @@
   src: url(font/SilkSerif-Regular.ttf);
 }
 
+@media only screen and (max-width: 700px){
+  #minimap{
+    display: block;
+  }
+
+  .compression{
+    font-size:13px;
+    line-height: 16px;
+    width: 80px;
+    background-color: red;
+  }
+
+  .custom-select-wrapper{
+    margin-left:110px;
+    font-size:13px;
+    width: 200px;
+    line-height: 16px;
+    background-color: pink;
+  }
+
+  .custom-option {
+    width: 200px;
+    line-height: 16px;
+  }
+
+  .slider{
+    width: 90px;
+  }
+}
+
+
+
 body{
   font-size:16px;
   margin: 0;
@@ -29,17 +61,41 @@ body{
   user-select: none;
 }
 
-#minimap {
-  width: 240px;
-  height: 165px;
-  border: 0.09em solid black;
-  background-color: white;
-  position: fixed;
-  z-index: 9999;
-  top: 20px;
-  right: 20px;
-  background-image:url('img/background.jpg');
-  background-size: contain;
+
+@media (min-width: 700px){
+  #minimap {
+    width: 240px;
+    height: 165px;
+    border: 0.09em solid black;
+    background-color: white;
+    position: fixed;
+    z-index: 9999;
+    top: 20px;
+    right: 20px;
+    background-image:url('img/background.jpg');
+    background-size: contain;
+  }
+
+   .compression{
+    line-height: 22px;
+    width: 130px;
+    font-size:16px;
+  }
+
+  .custom-select-wrapper{
+    margin-left:130px;
+    font-size:16px;
+    line-height: 22px;
+    width: 300px;
+  }
+  .custom-option {
+    width: 300px;
+    line-height: 22px;
+  }
+
+  .slider{
+    width: 130px;
+  }
 }
 
 #minimap__cursor {
@@ -78,7 +134,6 @@ body{
   margin-right:40px;
   z-index: 2;
   -webkit-appearance: none;
-  width: 130px;
   height: 0.09em;
   outline: none;
   -webkit-transition: .2s;
@@ -321,36 +376,28 @@ img{
 }
 
 .compression{
-  font-size:16px;
   top:20px;
   left:20px;
   z-index: 9999;
   position: fixed;
-  height: 30px;
-  width: 130px;
+  height: 22px;
   font-family: Silk-regular;
-  line-height: 22px;
 }
 
 /* ------ Selection Menu -------  */
 
 .custom-select-wrapper {
-  font-size:16px;
   top: 20px;
   line-height: 22px;
-  width: 100px;
   height: 100px;
   height: 22px;
   position: fixed;
   z-index: 9999;
   user-select: none;
-  width: 300px;
-  margin-left:130px;
   font-family: Silk-regular;
 }
 
 .custom-select {
-  font-size:16px;
   display: flex;
   flex-direction: column;
   height: 60px;
@@ -375,7 +422,6 @@ img{
   left: 0;
   right: 0;
   border-top: 0;
-  transition: all 0.5s;
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
@@ -398,8 +444,6 @@ img{
   display: block;
   color: grey;
   cursor: pointer;
-  transition: all 0.5s;
-  width: 300px;
 }
 
 .custom-option:hover {
