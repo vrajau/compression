@@ -7,6 +7,17 @@
   -moz-osx-font-smoothing:antialiased;
 }
 
+body{
+  margin: 0;
+  padding:0;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
 @font-face {
   font-family: Silk-medium;
   src: url(font/SilkSerif-Medium.ttf);
@@ -26,41 +37,50 @@
     font-size:13px;
     line-height: 16px;
     width: 80px;
+    height: 16px;
     background-color: red;
   }
 
   .custom-select-wrapper{
-    margin-left:110px;
     font-size:13px;
-    width: 200px;
+    width: 100%;
+    height: 16px;
     line-height: 16px;
-    background-color: pink;
   }
 
   .custom-option {
-    width: 200px;
+    width: 100%;
+    padding-left:110px;
     line-height: 16px;
   }
 
+  .custom-options{
+    top: 16px;
+  }
+
+  .arrow{
+    margin-right:20px;
+  }
+
+  #arrowToggle{
+    margin-right:20px;
+  }
+/*  .custom-select{
+    height: 16px;
+    line-height: 16px;
+    background-color: yellow;
+  }*/
+
   .slider{
-    width: 90px;
+    width: 120px;
   }
 }
 
-
-
-body{
-  font-size:16px;
-  margin: 0;
-  padding:0;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+@media (max-width: 350px){
+.slider{
+    width: 40%;
+  }
 }
-
 
 @media (min-width: 700px){
   #minimap {
@@ -79,14 +99,22 @@ body{
    .compression{
     line-height: 22px;
     width: 130px;
+    height: 22px;;
     font-size:16px;
   }
+
+/*  .custom-select{
+    height: 60px;
+    line-height: 22px;
+  }*/
 
   .custom-select-wrapper{
     margin-left:130px;
     font-size:16px;
     line-height: 22px;
     width: 300px;
+    height: 16px;
+
   }
   .custom-option {
     width: 300px;
@@ -96,12 +124,24 @@ body{
   .slider{
     width: 130px;
   }
+
+  .custom-options{
+    top: 100%;
+  }
 }
+
+
+
+
+
+
 
 #minimap__cursor {
   outline: 0.09em solid black;
   position: relative;
 }
+
+
 
 .tiles{
   opacity: 1;
@@ -382,7 +422,6 @@ img{
   left:20px;
   z-index: 9999;
   position: fixed;
-  height: 22px;
   font-family: Silk-regular;
 }
 
@@ -402,8 +441,6 @@ img{
 .custom-select {
   display: flex;
   flex-direction: column;
-  height: 60px;
-  line-height: 22px;
   border-style: solid;
 }
 
@@ -420,7 +457,6 @@ img{
 .custom-options {
   position: absolute;
   display: block;
-  top: 100%;
   left: 0;
   right: 0;
   border-top: 0;
