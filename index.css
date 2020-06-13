@@ -28,6 +28,8 @@ body{
   src: url(font/SilkSerif-Regular.ttf);
 }
 
+
+/*Mobile*/
 @media only screen and (max-width: 700px){
   #minimap{
     display: block;
@@ -46,6 +48,7 @@ body{
     width: 100%;
     height: 16px;
     line-height: 16px;
+    background-color: pink;
   }
 
   .custom-option {
@@ -65,22 +68,34 @@ body{
   #arrowToggle{
     margin-right:20px;
   }
-/*  .custom-select{
-    height: 16px;
-    line-height: 16px;
-    background-color: yellow;
-  }*/
+
+  .custum-option .arrow{
+    margin-right:20px;
+  }
+
+  .custum-option #arrowToggle{
+    margin-right:20px;
+  }
 
   .slider{
     width: 120px;
+    margin-right:40px;
+  }
+
+  .custom-options .slider{
+    margin-right:60px;
   }
 }
 
+/*Really small mobile*/
 @media (max-width: 350px){
 .slider{
     width: 40%;
   }
 }
+
+
+/*desktop*/
 
 @media (min-width: 700px){
   #minimap {
@@ -99,7 +114,7 @@ body{
    .compression{
     line-height: 22px;
     width: 130px;
-    height: 22px;;
+    height: 22px;
     font-size:16px;
   }
 
@@ -113,16 +128,18 @@ body{
     font-size:16px;
     line-height: 22px;
     width: 300px;
-    height: 16px;
+    height: 22px;
 
   }
   .custom-option {
+    height: 22px;
     width: 300px;
     line-height: 22px;
   }
 
   .slider{
     width: 130px;
+    margin-right:40px;
   }
 
   .custom-options{
@@ -161,7 +178,6 @@ body{
 .slider {
   float:right;
   margin-top:9px;
-  margin-right:40px;
   z-index: 2;
   -webkit-appearance: none;
   height: 0.09em;
@@ -430,9 +446,6 @@ img{
 
 .custom-select-wrapper {
   top: 20px;
-  line-height: 22px;
-  height: 100px;
-  height: 22px;
   position: fixed;
   z-index: 9999;
   user-select: none;
