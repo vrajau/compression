@@ -321,6 +321,7 @@ img{
 }
 
 .compression{
+  font-size:16px;
   top:20px;
   left:20px;
   z-index: 9999;
@@ -334,6 +335,7 @@ img{
 /* ------ Selection Menu -------  */
 
 .custom-select-wrapper {
+  font-size:16px;
   top: 20px;
   line-height: 22px;
   width: 100px;
@@ -348,6 +350,7 @@ img{
 }
 
 .custom-select {
+  font-size:16px;
   display: flex;
   flex-direction: column;
   height: 60px;
