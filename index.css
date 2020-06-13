@@ -29,8 +29,11 @@ body{
 }
 
 
+
+
+
 /*Mobile*/
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 500px){
   #minimap{
     display: block;
   }
@@ -83,7 +86,13 @@ body{
   .custom-options .slider{
     margin-right:60px;
   }
+
+  .selectionText{
+    line-height: 13px;
+    font-size: 10px;
+  }
 }
+
 
 /*Really small mobile*/
 @media (max-width: 350px){
@@ -92,6 +101,49 @@ body{
   }
 }
 
+
+
+@media (min-width: 500px){
+  #minimap {
+     display: block;
+  }
+
+  
+   .compression{
+    line-height: 22px;
+    width: 130px;
+    height: 22px;
+    font-size:16px;
+  }
+
+  .custom-select-wrapper{
+    margin-left:130px;
+    font-size:16px;
+    line-height: 22px;
+    width: 300px;
+    height: 22px;
+
+  }
+  .custom-option {
+    height: 22px;
+    width: 300px;
+    line-height: 22px;
+  }
+
+  .slider{
+    width: 130px;
+    margin-right:40px;
+  }
+
+  .custom-options{
+    top: 100%;
+  }
+
+  .selectionText{
+    line-height: 15px;
+    font-size: 13px;
+  }
+}
 
 /*desktop*/
 
@@ -116,11 +168,6 @@ body{
     font-size:16px;
   }
 
-/*  .custom-select{
-    height: 60px;
-    line-height: 22px;
-  }*/
-
   .custom-select-wrapper{
     margin-left:130px;
     font-size:16px;
@@ -142,6 +189,11 @@ body{
 
   .custom-options{
     top: 100%;
+  }
+
+  .selectionText{
+    line-height: 15px;
+    font-size: 13px;
   }
 }
 
@@ -405,17 +457,14 @@ img{
 
 /* ------ Meta Data -------  */
 .selectionText{
-  font-size:12px;
   position: fixed;
   opacity:0;
   z-index: 9999;
   transition: all 0.5s;
   font-family: Silk-regular;
-  line-height: 15px;
 }
 
 .column-2{
-  font-size:12px !important;
   bottom: 20px;
   margin-left:130px;
   width: 400px;
@@ -424,7 +473,6 @@ img{
 }
 
 .column-1{
-  font-size:12px;
   left:20px;
   bottom:20px;
   position: fixed;
