@@ -361,6 +361,7 @@ img{
 }
 
 .column-2{
+  font-size:12px;
   bottom: 20px;
   margin-left:130px;
   width: 400px;
@@ -368,6 +369,7 @@ img{
 }
 
 .column-1{
+  font-size:12px;
   left:20px;
   bottom:20px;
   position: fixed;
