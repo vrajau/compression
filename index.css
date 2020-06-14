@@ -51,14 +51,14 @@ body{
   }
   .compression{
     float:left;
-    width: 90px;;
+    width: 90px;
     background: pink;
     font-size:16px;
     line-height: 22px;
     height: 22px;
   }
   .custom-select-wrapper{
-    background: blue;
+    background: purple;
     width: 100%;
     float:left;
     font-size:16px;
