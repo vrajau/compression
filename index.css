@@ -18,6 +18,18 @@ body{
   user-select: none;
 }
 
+.content-container{
+  top:0;
+  bottom: 0;
+  right:0;
+  left:0;
+  margin:20px;
+  box-sizing: border-box;
+  border:1px red solid;
+  z-index: 9999;
+  position: fixed;
+}
+
 @font-face {
   font-family: Silk-medium;
   src: url(font/SilkSerif-Medium.ttf);
@@ -29,125 +41,118 @@ body{
 }
 
 
-
-
-
 /*Mobile*/
 @media only screen and (max-width: 500px){
   #minimap{
     display: block;
   }
-
   .compression{
+    float:left;
+    width: 90px;;
+    background: pink;
     font-size:13px;
     line-height: 16px;
-    width: 80px;
     height: 16px;
   }
-
   .custom-select-wrapper{
+    background: blue;
+    width: 60vw;
+    float:left;
     font-size:13px;
-    width: 100%;
     height: 16px;
     line-height: 16px;
   }
-
   .custom-option {
+    float:left;
     width: 100%;
-    padding-left:110px;
+    /* padding-left:90px; */
     line-height: 16px;
   }
-
   .custom-options{
     top: 16px;
   }
-
-  .arrow{
-    margin-right:20px;
-  }
-
-  #arrowToggle{
-    margin-right:20px;
-  }
-
   .custum-option .arrow{
-    margin-right:20px;
-  }
 
+  }
   .custum-option #arrowToggle{
-    margin-right:20px;
+    margin-left:40px;
   }
-
   .slider{
     width: 120px;
     margin-right:40px;
   }
-
   .custom-options .slider{
-    margin-right:60px;
+    margin-right:40px;
   }
 
   .selectionText{
     line-height: 13px;
     font-size: 10px;
   }
+  .column-1{
+    width:90px;
+  }
+  .arrow{
+    float:right;
+  }
 }
 
 
 /*Really small mobile*/
-@media (max-width: 350px){
+@media (max-width: 370px){
 .slider{
-    width: 40%;
+    width: 70px;
   }
+    .custom-select-wrapper{
+      width: 67%;
+    }
 }
 
 
-
+/*Tablet/minimap blocking*/
 @media (min-width: 500px){
   #minimap {
      display: block;
   }
-
-
-   .compression{
+  .compression{
+    float: left;
     line-height: 22px;
     width: 130px;
     height: 22px;
     font-size:16px;
+    background-color: pink;
   }
-
   .custom-select-wrapper{
-    margin-left:130px;
+    float: left;
+    background: orange;
     font-size:16px;
     line-height: 22px;
     width: 300px;
     height: 22px;
-
   }
   .custom-option {
     height: 22px;
     width: 300px;
     line-height: 22px;
   }
-
   .slider{
     width: 130px;
     margin-right:40px;
   }
-
   .custom-options{
     top: 100%;
   }
-
   .selectionText{
     line-height: 15px;
     font-size: 13px !important;
   }
+  .column-1{
+    width:130px;
+  }
 }
 
-/*desktop*/
-
-@media (min-width: 700px){
+/*desktop -- above 700 pixels show the minimap. */
+@media (min-width: 720px){
   #minimap {
     width: 240px;
     height: 165px;
@@ -160,40 +165,38 @@ body{
     background-image:url('img/background.jpg');
     background-size: contain;
   }
-
    .compression{
+    float:left;
     line-height: 22px;
     width: 130px;
     height: 22px;
     font-size:16px;
   }
-
   .custom-select-wrapper{
-    margin-left:130px;
+    float:left;
     font-size:16px;
     line-height: 22px;
     width: 300px;
     height: 22px;
-
   }
   .custom-option {
     height: 22px;
     width: 300px;
     line-height: 22px;
   }
-
   .slider{
     width: 130px;
     margin-right:40px;
   }
-
   .custom-options{
     top: 100%;
   }
-
   .selectionText{
     line-height: 15px;
     font-size: 13px;
+  }
+  .column-1{
+    width:130px;
   }
 }
 
@@ -201,7 +204,6 @@ body{
 
 
 /* ------ minimap -------  */
-
 
 #minimap__cursor {
   outline: 0.09em solid black;
@@ -211,16 +213,15 @@ body{
 /* ------ Drag control -------  */
 
 #controlarea{
-/*  background:rgba(255,255,255, 0.1);
+  /* background:rgba(255,255,255, 0.1);
   -webkit-backdrop-filter: blur(5px);
-  backdrop-filter: blur(10px);
-  z-index: 9998;*/
+  backdrop-filter: blur(10px); */
+  z-index: 9998;
   top:0;
   bottom:0;
   right:0;
   left:0;
   position: fixed;
-
 }
 
 /* ------ Slider -------  */
@@ -457,42 +458,39 @@ img{
 
 /* ------ Meta Data -------  */
 .selectionText{
-  position: fixed;
+  bottom:20px;
+  position: fixed;;
   opacity:0;
+  width: 100%;
   z-index: 9999;
   transition: all 0.5s;
   font-family: Silk-regular;
 }
 
 .column-2{
-  bottom: 20px;
-  margin-left:130px;
-  width: 400px;
-  position: fixed;
+  float:left;
+  position:relative;
   font-family: Silk-regular;
+  background: grey;
 }
 
 .column-1{
-  left:20px;
-  bottom:20px;
-  position: fixed;
-  width: 130px;
+  float:left;
+  position:relative;
   font-family: Silk-regular;
+  background: red;
 }
 
 /* ------ Selection Menu -------  */
 
 .compression{
-  top:20px;
-  left:20px;
   z-index: 9999;
-  position: fixed;
+  position: relative;
   font-family: Silk-regular;
 }
 
 .custom-select-wrapper {
-  top: 20px;
-  position: fixed;
+  position: relative;
   z-index: 9999;
   user-select: none;
   font-family: Silk-regular;
@@ -555,7 +553,7 @@ img{
 
 /* ------ Arrow -------  */
 .arrow {
-  margin-left:-10px;
+  margin-left:-20px;
   position: relative;
   height: 12px;
   width: 12px;
@@ -594,9 +592,92 @@ img{
 }
 
 #arrowToggle{
+  /* padding-left:20px; */
   position: absolute;
   right:0px;
   height:100%;
   width:20px;
   cursor: pointer;
+}
+
+/* ------ Selection Menu -------  */
+
+@-webkit-keyframes Fade {
+  0% {
+    opacity: 0;
+  } 25% {
+    opacity: 1;
+  }
+    75% {
+    opacity: 1;
+  }
+    100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes Fade {
+  0% {
+    opacity: 0;
+  } 25% {
+    opacity: 1;
+  }
+    75% {
+    opacity: 1;
+  }
+    100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes Fade {
+  0% {
+    opacity: 0;
+
+  } 25% {
+    opacity: 1;
+
+  }
+    75% {
+    opacity: 1;
+  }
+    100% {
+    opacity: 1;
+  }
+}
+
+@keyframes Fade {
+  0% {
+    opacity: 0;
+  } 25% {
+    opacity: 1;
+  }
+    75% {
+    opacity: 1;
+  }
+    100% {
+    opacity: 1;
+  }
+}
+
+.Fade {
+  -webkit-animation-fill-mode:both;
+  -moz-animation-fill-mode:both;
+  -ms-animation-fill-mode:both;
+  -o-animation-fill-mode:both;
+  animation-fill-mode:both;
+  -webkit-animation-duration:3s;
+  -moz-animation-duration:3s;
+  -ms-animation-duration:3s;
+  -o-animation-duration:3s;
+  animation-duration:3s;
+  -webkit-animation-delay:1.7s;
+  -moz-animation-delay:1.7s;
+  -ms-animation-delay:1.7s;
+  -o-animation-delay:1.7s;
+  animation-delay:1.7s;
+  -webkit-animation-name: Fade;
+  -moz-animation-name: Fade;
+  -o-animation-name: Fade;
+  animation-name: Fade;
 }

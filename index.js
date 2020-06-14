@@ -34,16 +34,15 @@ sliders.forEach((slider) => {
   })
 });
 
+//------------------------------------------------------------------
 
 
-
-/////////////////////////////////////////////////TOGGLE DROPDOWN
 $('#arrowToggle').on('click', function () {
   $('.custom-select').toggleClass('open');
 });
+
 //------------------------------------------------------------------
 
-/////////////////////////////////////////////////CHANGE THE OPACITY
 window.addEventListener('click', function (e) {
   $('#L15').on('input', function () {
     $('#layer15').css('opacity', $(this).val());
@@ -104,9 +103,9 @@ window.addEventListener('click', function (e) {
   $('#L1').on('input', function () {
     $('#layer1').css('opacity', $(this).val());
   })
+  
   //------------------------------------------------------------------
 
-  /////////////////////////////////////////////////CLOSE DROPDOWN WHEN CLICKED ON DOCUMENT
   for (const select of document.querySelectorAll('.custom-select')) {
     if (!select.contains(e.target)) {
       select.classList.remove('open');
