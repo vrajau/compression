@@ -33,7 +33,6 @@ body{
   filter: grayscale(100%);
   filter: gray;
   -webkit-filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
   position: fixed;
   box-sizing: border-box;
   display:none;
@@ -182,15 +181,24 @@ p{
 .item { /* Masonry bricks or child elements */
   display: inline-block;
   width: 100%;
+  filter: grayscale(100%);
+  filter: gray;
+  -webkit-filter: grayscale(100%);
 }
 .wrapper {
   width: 100%;
+  filter: grayscale(100%);
+  filter: gray;
+  -webkit-filter: grayscale(100%);
 }
 .masonry {
   padding: 0;
   -moz-column-gap: 0px;
   -webkit-column-gap: 0px;
   column-gap: 0px;
+  filter: grayscale(100%);
+  filter: gray;
+  -webkit-filter: grayscale(100%);
 }
 .item {
   display: inline-block;
