@@ -16,7 +16,16 @@ body{
   -ms-user-select: none;
   user-select: none;
 }
-
+.content-container{
+  top:0;
+  right:0;
+  left:0;
+  margin:20px;
+  box-sizing: border-box;
+  border:1px red solid;
+  z-index: 2;
+  position: fixed;
+}
 
 @font-face {
   font-family: Silk-medium;
@@ -27,15 +36,7 @@ body{
   font-family: Silk-regular;
   src: url(font/SilkSerif-Regular.ttf);
 }
-.content-container{
-  top:0;
-  right:0;
-  left:0;
-  margin:20px;
-  box-sizing: border-box;
-  z-index: 2;
-  position: fixed;
-}
+
 
 /*Mobile*/
 @media only screen and (max-width: 500px){
@@ -45,14 +46,16 @@ body{
   .compression{
     float:left;
     width: 90px;
-    font-size:19px;
+    background: pink;
+    font-size:17px;
     line-height: 22px;
     height: 22px;
   }
   .custom-select-wrapper{
+    background: purple;
     width: 100%;
     float:left;
-    font-size:19px;
+    font-size:17px;
     line-height: 22px;
     height: 22px;
   }
@@ -77,7 +80,6 @@ body{
   .custom-options .slider{
     margin-right:40px;
   }
-
   .selectionText{
     position: fixed;
     line-height: 13px;
@@ -100,14 +102,23 @@ body{
 
   .custom-options .slider::-webkit-slider-thumb {
     width: 10px;
-    border:1px solid black;
+    border:1px solid grey;
     background:rgba(255,255,255, 0.1);
     -webkit-backdrop-filter: blur(3px);
     backdrop-filter: blur(3px);
   }
 
+  .custom-option:hover .slider::-webkit-slider-thumb {
+    background:rgba(255,255,255, 0.1);
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+  }
 
-
+  .custom-options .slider::-webkit-slider-thumb {
+    background:rgba(255,255,255, 0.1);
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+  }
 }
 
 
@@ -132,11 +143,13 @@ body{
     line-height: 22px;
     width: 130px;
     height: 22px;
-    font-size:19px;
+    font-size:17px;
+    background-color: pink;
   }
   .custom-select-wrapper{
     float: left;
-    font-size:19px;
+    background: orange;
+    font-size:17px;
     line-height: 22px;
     width: 300px;
     height: 22px;
@@ -162,7 +175,7 @@ body{
     width:130px;
   }
 
-.custom-select__trigger .slider::-webkit-slider-thumb {
+  .custom-select__trigger .slider::-webkit-slider-thumb {
     background: black;
   }
 
@@ -183,8 +196,6 @@ body{
   .custom-options .slider::-webkit-slider-thumb {
     background: grey;
   }
-
-}
 }
 
 /*desktop -- above 700 pixels show the minimap. */
@@ -192,7 +203,7 @@ body{
   #minimap {
     width: 240px;
     height: 165px;
-    border: 1px solid black;
+    border: 0.09em solid black;
     background-color: white;
     position: fixed;
     z-index: 2;
@@ -206,11 +217,11 @@ body{
     line-height: 22px;
     width: 130px;
     height: 22px;
-    font-size:19px;
+    font-size:17px;
   }
   .custom-select-wrapper{
     float:left;
-    font-size:19px;
+    font-size:17px;
     line-height: 22px;
     width: 300px;
     height: 22px;
@@ -235,7 +246,7 @@ body{
   .column-1{
     width:130px;
   }
-
+  
   .custom-select__trigger .slider::-webkit-slider-thumb {
     background: black;
   }
@@ -300,8 +311,6 @@ body{
 .custom-select__trigger .slider{
   background: black;
 }
-
-
 .slider::-webkit-slider-thumb {
   transition: all 0.5s;
   -webkit-appearance: none;
@@ -331,7 +340,6 @@ body{
 .custom-options .slider{
   background: grey;
 }
-
 
 /* ------ Layers -------  */
 
@@ -526,12 +534,14 @@ body{
   float:left;
   position:relative;
   font-family: Silk-regular;
+  background: grey;
 }
 
 .column-1{
   float:left;
   position:relative;
   font-family: Silk-regular;
+  background: red;
 }
 
 /* ------ Selection Menu -------  */
