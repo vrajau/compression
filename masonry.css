@@ -38,7 +38,13 @@ body{
   display:none;
   overflow-y: scroll;
   overflow-x: hidden;
-  }
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+}
+
+.source-wrapper::-webkit-scrollbar {
+  display: none;
+}
 
 .open-source{
   z-index: 3;
@@ -180,13 +186,13 @@ p{
 }
 .item { /* Masonry bricks or child elements */
   display: inline-block;
-  width: 100%;
+  width: 100vw;
   filter: grayscale(100%);
   filter: gray;
   -webkit-filter: grayscale(100%);
 }
 .wrapper {
-  width: 100%;
+  width: 100vw;
   filter: grayscale(100%);
   filter: gray;
   -webkit-filter: grayscale(100%);
