@@ -107,7 +107,6 @@ body{
   width: 120px;
   position: fixed;
   text-align: right;
-  background-color: red;
 }
 a {
   text-decoration: none;  
@@ -120,6 +119,7 @@ a {
 a:hover{
   color:grey;
 }
+
 .close {
   z-index: 5;
   position: fixed;
