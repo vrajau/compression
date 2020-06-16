@@ -606,6 +606,7 @@ body{
 .arrow::before,
 .arrow::after {
   content: "";
+  top:-3;
   position: absolute;
   bottom: 0px;
   width: 0.05em;
