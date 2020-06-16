@@ -21,15 +21,64 @@ body{
   src: url(font/SilkSerif-Regular.ttf);
 }
 
-/*-------wrapper styles yay-------*/ 
+.opening {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  z-index: 9;
+  position: fixed;
+  left:0;
+  top:0;
+}
+
+.closing{
+  width: 40px;
+  height: 40px;
+  background-color: yellow;
+  opacity: 1;
+  z-index: 10;
+  position: fixed;
+  top:0;
+  right:0;
+}
+
 .source-wrapper {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background:rgba(255,255,255, 0.1);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  filter: gray;
+  left:0;
+  top:0;
+  z-index: 0;
+  opacity: 0;
+  transition: opacity 0.5s linear;
+  -webkit-transition: opacity 0.5s linear;
+  -o-transition: opacity 0.5s linear;
+  -moz-transition: opacity 0.5s linear;
+  -ms-transition: opacity 0.5s linear;
+  transition: z-index 0.5s ease-in-out, opacity 0.5s linear;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+}
+
+/*-------wrapper styles yay-------*/ 
+/*.source-wrapper {
   top:0;
   bottom:0;
-  right:0;
   left:0;
-  z-index: 4;
-  height:100vh;
+  right: 0;
   width: 100vw;
+  height: 100vh;
+  z-index: 4;
+  opacity: 0;
+  display: none;
   background:rgba(255,255,255, 0.1);
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(10px);
@@ -38,12 +87,13 @@ body{
   filter: gray;
   position: fixed;
   box-sizing: border-box;
-  display:none;
   overflow-y: scroll;
   overflow-x: hidden;
   -ms-overflow-style: none;
   overflow: -moz-scrollbars-none;
 }
+*/
+
 
 .source-wrapper::-webkit-scrollbar {
   display: none;
@@ -57,34 +107,27 @@ body{
   width: 120px;
   position: fixed;
   text-align: right;
+  background-color: red;
 }
-
 a {
-    text-decoration: none;  
-    cursor:pointer;
-    color:black;
-    font-family: Silk-regular;
-    font-size:19px;
-    line-height: 25px;
+  text-decoration: none;  
+  cursor:pointer;
+  color:black;
+  font-family: Silk-regular;
+  font-size:19px;
+  line-height: 25px;
 }
-
-
 a:hover{
   color:grey;
 }
-.close.appear {
-  display: block;
-}
-
 .close {
-  display: none;
   z-index: 5;
   position: fixed;
   right: 10px;
   top: 20px;
   width: 20px;
   height: 20px;
-  opacity: 1;
+  opacity: 0;
 }
 
 .close:before, .close:after {
