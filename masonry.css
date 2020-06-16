@@ -190,6 +190,8 @@ p{
   -moz-column-gap: 0px;
   -webkit-column-gap: 0px;
   column-gap: 0px;
+  filter: grayscale(100%);
+  filter: gray;
 }
 .item {
   display: inline-block;
