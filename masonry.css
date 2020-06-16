@@ -65,7 +65,7 @@ a {
     color:black;
     font-family: Silk-regular;
     font-size:19px;
-    line-height: 22px;
+    line-height: 25px;
 }
 
 
@@ -123,8 +123,8 @@ p{
 }
 .name p{
   font-family: Silk-regular;
-  font-size: 28px;
-  line-height: 34px;
+  font-size: 25px;
+  line-height: 25px;
   hyphens: auto;
   word-break: break-all;
 }
@@ -138,19 +138,19 @@ p{
   float: right;
   margin-top:20px;
   width: 48%;
-  line-height: 20px;
+  line-height: 22px;
   text-align: right;
 }
 
 .meta-data-1 p{
   font-family: Silk-regular;
   font-size:19px;
-  line-height: 20px;
+  line-height: 22px;
 }
 .meta-data-2 p{
   font-family: Silk-regular;
   font-size:19px;
-  line-height: 20px;
+  line-height: 22px;
 }
 .tags{
   margin-top:20px;
@@ -163,7 +163,7 @@ p{
 .tags p{
   font-family: Silk-regular;
   font-size:19px;
-  line-height: 20px;
+  line-height: 22px;
   text-align: justify;
 }
 .tags p:after{
