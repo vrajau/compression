@@ -1,74 +1,71 @@
-//1.Airdrop?
-// for(i=1; i < 301; i++){
-//     $( "#layer15" ).append( "<div class=tiles class=fadein>" + "<img data-src=images/Twitter/" + i + ".jpg>" + "</div>");
-//   }
+//add image 1 - 10 (including the 0)
 
-//2.Arena
+//Facebook
+for(i=1; i < 301; i++){
+    $( "#layer15" ).append( "<div class=tiles class=fadein>" + "<img data-src=images/Facebook/" + i + ".jpg>" + "</div>");
+  }
+
+//Arena
 for(i=1; i < 301; i++){
     $( "#layer14" ).append( "<div class=tiles class=fadein>" + "<img data-src=images/Arena/" + i + ".jpg>" + "</div>");
   }
 
-//3.Denviantart
+//Whatsapp
 for(i=1; i < 301; i++){
-    $( "#layer13" ).append( "<div class=tiles class=fadein>" + "<img data-src=images/Deviantart/" + i + ".jpg>" + "</div>");
+    $( "#layer13" ).append( "<div class=tiles class=fadein>" + "<img data-src=images/WhatsApp/" + i + ".jpg>" + "</div>");
   }
 
-// 4.Dropbox /none
+//Tumblr
 for(i=1; i < 301; i++){
-    $( "#layer12" ).append( "<div class=tiles class=fadein>" + "</div>");
+    $( "#layer12" ).append( "<div class=tiles class=fadein>" + "<img data-src=images/Tumblr/" + i + ".jpg>" + "</div>");
   }
 
-//5.Facebook
+//Instagram
 for(i=1; i < 301; i++){
-    $( "#layer11" ).append( "<div class=tiles class=fadein>" + "<img data-src=images/Facebook/" + i + ".jpg>" + "</div>");
+    $( "#layer11" ).append( "<div class=tiles class=fadein>" + "<img data-src=images/Instagram/" + i + ".jpg>" + "</div>");
   }
 
-//6.Instagram
+//Reddit
 for(i=1; i < 301; i++){
-    $( "#layer10" ).append( "<div class=tiles class=fadein>" + "<img data-src=images/Instagram/" + i + ".jpg>" + "</div>");
+    $( "#layer10" ).append( "<div class=tiles class=fadein>" + "<img data-src=images/Reddit/" + i + ".jpg>" + "</div>");
   }
 
-//7.Pinterest
+//Denviantart
 for(i=1; i < 301; i++){
-    $( "#layer9" ).append( "<div class=tiles class=fadein>" + "<img data-src=images/Pinterest/" + i + ".jpg>" + "</div>");
+    $( "#layer9" ).append( "<div class=tiles class=fadein>" + "<img data-src=images/Deviantart/" + i + ".jpg>" + "</div>");
   }
 
-//8.Reddit
+//iMessage
 for(i=1; i < 301; i++){
-    $( "#layer8" ).append( "<div class=tiles class=fadein>" + "<img data-src=images/Reddit/" + i + ".jpg>" + "</div>");
+    $( "#layer8" ).append( "<div class=tiles class=fadein>" + "<img data-src=images/iMessage/" + i + ".jpg>" + "</div>");
   }
 
-//9.Slack /none
+//Pinterest
 for(i=1; i < 301; i++){
-    $( "#layer7" ).append( "<div class=tiles class=fadein>" + "</div>");
+    $( "#layer7" ).append( "<div class=tiles class=fadein>" + "<img data-src=images/Pinterest/" + i + ".jpg>" + "</div>");
   }
 
-//10.Telegram
+//Skype
 for(i=1; i < 301; i++){
-    $( "#layer6" ).append( "<div class=tiles class=fadein>" + "<img data-src=images/Telegram/" + i + ".jpg>" + "</div>");
+    $( "#layer6" ).append( "<div class=tiles class=fadein>" + "<img data-src=images/Skype/" + i + ".jpg>" + "</div>");
   }
 
-//11.Text Message
+//Twitter
 for(i=1; i < 301; i++){
-    $( "#layer5" ).append( "<div class=tiles class=fadein>" + "<img data-src=images/iMessage/" + i + ".jpg>" + "</div>");
+    $( "#layer5" ).append( "<div class=tiles class=fadein>" + "<img data-src=images/Twitter/" + i + ".jpg>" + "</div>");
   }
 
-//12.Tumblr
+// //iMessage
+// for(i=1; i < 301; i++){
+//     $( "#layer4" ).append( "<div class=tiles class=fadein>" + "<img data-src=images/Twitter/" + i + ".jpg>" + "</div>");
+//   }
+
+//Telegram
 for(i=1; i < 301; i++){
-    $( "#layer4" ).append( "<div class=tiles class=fadein>" + "<img data-src=images/Tumblr/" + i + ".jpg>" + "</div>");
+    $( "#layer3" ).append( "<div class=tiles class=fadein>" + "<img data-src=images/Telegram/" + i + ".jpg>" + "</div>");
   }
 
-//13.Twitter
+//Slack
 for(i=1; i < 301; i++){
-    $( "#layer3" ).append( "<div class=tiles class=fadein>" + "<img data-src=images/Twitter/" + i + ".jpg>" + "</div>");
-  }
-
-//14.Whatsapp
-for(i=1; i < 301; i++){
-    $( "#layer2" ).append( "<div class=tiles class=fadein>" + "<img data-src=images/WhatsApp/" + i + ".jpg>" + "</div>");
-  }
-
-//15.Wetransfer //none
-for(i=1; i < 301; i++){
-    $( "#layer1" ).append( "<div class=tiles class=fadein>" + "</div>");
+    $( "#layer2" ).append( "<div class=tiles class=fadein>" + "<img data-src=images/Skype/" + i + ".jpg>" + "</div>");
   }
