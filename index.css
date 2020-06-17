@@ -78,12 +78,20 @@ body{
     margin-right:40px;
   }
   .selectionText{
+    white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: clip; 
+    height: 91px;
     position: fixed;
     line-height: 13px;
     font-size: 10px;
   }
   .column-1{
     width:90px;
+  }
+
+  .column-2{
+    margin-left:90px;
   }
   .arrow{
     float:right;
@@ -167,6 +175,17 @@ body{
   .column-1{
     width:130px;
   }
+  .column-2{
+    margin-left:130px;
+  }
+  .custom-select__trigger .slider::-webkit-slider-thumb {
+    width: 1px;
+    border:1px solid black;
+  }
+  .custom-options .slider::-webkit-slider-thumb {
+    width: 1px;
+    border:1px solid grey;
+}
 
   .custom-select__trigger .slider::-webkit-slider-thumb {
     background: black;
@@ -228,6 +247,7 @@ body{
     top: 100%;
   }
   .selectionText{
+    height: 105px;
     position: fixed;
     line-height: 15px;
     font-size: 13px;
@@ -507,16 +527,19 @@ body{
   bottom:20px;
   position: fixed;;
   opacity:0;
-  width: 100%;
   z-index: 1;
   transition: all 0.5s;
   font-family: Silk-regular;
 }
 
 .column-2{
-  float:left;
   position:relative;
   font-family: Silk-regular;
+  overflow: hidden;
+  text-overflow: clip;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: clip; 
 }
 
 .column-1{
