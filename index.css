@@ -79,8 +79,8 @@ body{
   }
   .selectionText{
     white-space: nowrap; 
-  overflow: hidden;
-  text-overflow: clip; 
+    overflow: hidden;
+    text-overflow: clip; 
     height: 91px;
     position: fixed;
     line-height: 13px;
@@ -319,7 +319,6 @@ body{
   transition: all 0.5s;
   -webkit-appearance: none;
   appearance: none;
-  width:1px;
   height: 12px;
   cursor: pointer;
 }
