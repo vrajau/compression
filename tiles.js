@@ -1,26 +1,26 @@
 //add image 1 - 10 (including the 0)
 
-//1. Airdrop
+//1. Arena
 for(i=1; i < 301; i++){
-    $( "#layer15" ).append( "<div class=tiles>" + "<img data-src=images/Airdrop/" + i + ".jpg>" + "</div>");
+    $( "#layer15" ).append( "<div class=tiles>" + "<img data-src=images/Arena/" + i + ".jpg>" + "</div>");
   }
 
-//2. Arena
+//2. Deviantart
 for(i=1; i < 301; i++){
-    $( "#layer14" ).append( "<div class=tiles>" + "<img data-src=images/Arena/" + i + ".jpg>" + "</div>");
+    $( "#layer14" ).append( "<div class=tiles>" + "<img data-src=images/Deviantart/" + i + ".jpg>" + "</div>");
   }
 
-//3. Deviantart
+//3. Dropbox + 0 
 for(i=1; i < 301; i++){
-    $( "#layer13" ).append( "<div class=tiles>" + "<img data-src=images/Deviantart/" + i + ".jpg>" + "</div>");
+    $( "#layer13" ).append( "<div class=tiles>" + "</div>");
   }
 
-//4. Dropbox + 0 
+//4. Facebook
 for(i=1; i < 301; i++){
-    $( "#layer12" ).append( "<div class=tiles>" + "</div>");
+    $( "#layer12" ).append( "<div class=tiles>" + "<img data-src=images/Facebook/" + i + ".jpg>" + "</div>");
   }
 
-//5. Facebook
+//5. Google Hangout
 for(i=1; i < 301; i++){
     $( "#layer11" ).append( "<div class=tiles>" + "<img data-src=images/Facebook/" + i + ".jpg>" + "</div>");
   }
