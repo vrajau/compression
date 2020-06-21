@@ -22,7 +22,7 @@ for(i=1; i < 301; i++){
 
 //5. Google Hangout
 for(i=1; i < 301; i++){
-    $( "#layer11" ).append( "<div class=tiles>" + "<img data-src=images/Facebook/" + i + ".jpg>" + "</div>");
+    $( "#layer11" ).append( "<div class=tiles>" + "<img data-src=images/Google/" + i + ".jpg>" + "</div>");
   }
 
 //6. Instagram

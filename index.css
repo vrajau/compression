@@ -170,7 +170,7 @@ body{
   .selectionText{
     position: fixed;
     line-height: 15px;
-    font-size: 13px !important;
+    font-size: 14px !important;
   }
   .column-1{
     width:130px;
@@ -250,7 +250,7 @@ body{
     height: 105px;
     position: fixed;
     line-height: 15px;
-    font-size: 13px;
+    font-size: 14px;
   }
   .column-1{
     width:130px;
