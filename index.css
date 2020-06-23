@@ -78,10 +78,7 @@ body{
     margin-right:40px;
   }
   .selectionText{
-    white-space: nowrap; 
-    overflow: hidden;
-    text-overflow: clip; 
-    height: 91px;
+    height: 87px;
     position: fixed;
     line-height: 13px;
     font-size: 10px;
@@ -89,14 +86,12 @@ body{
   .column-1{
     width:90px;
   }
-
   .column-2{
     margin-left:90px;
   }
   .arrow{
     float:right;
   }
-
   .custom-select__trigger .slider::-webkit-slider-thumb {
     width: 10px;
     border:1px solid black;
@@ -141,6 +136,51 @@ body{
   #minimap {
      display: block;
   }
+  #minimap15 {
+     display: block;
+  }
+  #minimap14 {
+     display: block;
+  }
+  #minimap13 {
+     display: block;
+  }
+  #minimap12 {
+     display: block;
+  }
+  #minimap11 {
+     display: block;
+  }
+  #minimap10 {
+     display: block;
+  }
+  #minimap9 {
+     display: block;
+  }
+  #minimap8 {
+     display: block;
+  }
+  #minimap7 {
+     display: block;
+  }
+  #minimap6 {
+     display: block;
+  }
+  #minimap5 {
+     display: block;
+  }
+  #minimap4 {
+     display: block;
+  }
+  #minimap3 {
+     display: block;
+  }
+  #minimap2 {
+     display: block;
+  }
+  #minimap1 {
+     display: block;
+  }
   .compression{
     float: left;
     line-height: 25px;
@@ -168,9 +208,10 @@ body{
     top: 100%;
   }
   .selectionText{
+    height: 109px;
     position: fixed;
-    line-height: 15px;
-    font-size: 14px !important;
+    line-height: 16px;
+    font-size: 14px;
   }
   .column-1{
     width:130px;
@@ -180,13 +221,10 @@ body{
   }
   .custom-select__trigger .slider::-webkit-slider-thumb {
     width: 1px;
-    border:1px solid black;
   }
   .custom-options .slider::-webkit-slider-thumb {
     width: 1px;
-    border:1px solid grey;
 }
-
   .custom-select__trigger .slider::-webkit-slider-thumb {
     background: black;
   }
@@ -212,12 +250,175 @@ body{
     width: 240px;
     height: 165px;
     border: 0.09em solid black;
+    position: fixed;
+    z-index: 2;
+    top: 20px;
+    right: 20px;
+    background-size: contain;
+  } 
+  #minimap15 {
+    width: 240px;
+    height: 165px;
     background-color: white;
     position: fixed;
     z-index: 2;
     top: 20px;
     right: 20px;
-    background-image:url('img/background.jpg');
+    background-image:url('images/bg/arena-bg.jpg');
+    background-size: contain;
+  }
+  #minimap14 {
+    width: 240px;
+    height: 165px;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    top: 20px;
+    right: 20px;
+    background-image:url('images/bg/deviantart-bg.jpg');
+    background-size: contain;
+  }
+  #minimap13 {
+    width: 240px;
+    height: 165px;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    top: 20px;
+    right: 20px;
+    background-image:url('images/bg/dropbox-bg.jpg');
+    background-size: contain;
+  }
+  #minimap12 {
+    width: 240px;
+    height: 165px;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    top: 20px;
+    right: 20px;
+    background-image:url('images/bg/facebook-bg.jpg');
+    background-size: contain;
+  }
+  #minimap11 {
+    width: 240px;
+    height: 165px;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    top: 20px;
+    right: 20px;
+    background-image:url('images/bg/google-bg.jpg');
+    background-size: contain;
+  }
+  #minimap10 {
+    width: 240px;
+    height: 165px;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    top: 20px;
+    right: 20px;
+    background-image:url('images/bg/imessage-bg.jpg');
+    background-size: contain;
+  }
+  #minimap9 {
+    width: 240px;
+    height: 165px;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    top: 20px;
+    right: 20px;
+    background-image:url('images/bg/instagram-bg.jpg');
+    background-size: contain;
+  }
+  #minimap8 {
+    width: 240px;
+    height: 165px;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    top: 20px;
+    right: 20px;
+    background-image:url('images/bg/pinterest-bg.jpg');
+    background-size: contain;
+  }
+  #minimap7 {
+    width: 240px;
+    height: 165px;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    top: 20px;
+    right: 20px;
+    background-image:url('images/bg/reddit-bg.jpg');
+    background-size: contain;
+  }
+  #minimap6 {
+    width: 240px;
+    height: 165px;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    top: 20px;
+    right: 20px;
+    background-image:url('images/bg/slack-bg.jpg');
+    background-size: contain;
+  }
+  #minimap5 {
+    width: 240px;
+    height: 165px;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    top: 20px;
+    right: 20px;
+    background-image:url('images/bg/telegram-bg.jpg');
+    background-size: contain;
+  }
+  #minimap4 {
+    width: 240px;
+    height: 165px;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    top: 20px;
+    right: 20px;
+    background-image:url('images/bg/tumblr-bg.jpg');
+    background-size: contain;
+  }
+  #minimap3 {
+    width: 240px;
+    height: 165px;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    top: 20px;
+    right: 20px;
+    background-image:url('images/bg/twitter-bg.jpg');
+    background-size: contain;
+  }
+  #minimap2 {
+    width: 240px;
+    height: 165px;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    top: 20px;
+    right: 20px;
+    background-image:url('images/bg/wetransfer-bg.jpg');
+    background-size: contain;
+  }
+  #minimap1 {
+    width: 240px;
+    height: 165px;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    top: 20px;
+    right: 20px;
+    background-image:url('images/bg/whatsapp-bg.jpg');
     background-size: contain;
   }
    .compression{
@@ -247,13 +448,14 @@ body{
     top: 100%;
   }
   .selectionText{
-    height: 105px;
+    height: 109px;
     position: fixed;
-    line-height: 15px;
+    line-height: 16px;
     font-size: 14px;
   }
   .column-1{
     width:130px;
+    height: 105px;
   }
   
   .custom-select__trigger .slider::-webkit-slider-thumb {
@@ -261,10 +463,12 @@ body{
   }
   .slider::-webkit-slider-thumb {
     width:1px;
+    border:none;
     background: black;
   }
   .slider::-moz-range-thumb {
     width:1px;
+
     background: black;
   }
   .custom-option:hover .slider::-webkit-slider-thumb {
@@ -284,6 +488,9 @@ body{
   outline: 0.09em solid black;
   position: relative;
 }
+
+
+
 
 /* ------ Drag control -------  */
 

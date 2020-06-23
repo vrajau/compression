@@ -65,12 +65,14 @@ for(i=1; i < 301; i++){
     $( "#layer3" ).append( "<div class=tiles>" + "<img data-src=images/Twitter/" + i + ".jpg>" + "</div>");
   }
 
-//14. WhatsApp
+
+//14. Wetransfer + 0 
 for(i=1; i < 301; i++){
-    $( "#layer2" ).append( "<div class=tiles>" + "<img data-src=images/WhatsApp/" + i + ".jpg>" + "</div>");
+    $( "#layer2" ).append( "<div class=tiles>" + "</div>");
   }
 
-//15. Wetransfer + 0 
+//15. WhatsApp
 for(i=1; i < 301; i++){
-    $( "#layer1" ).append( "<div class=tiles>" + "</div>");
+    $( "#layer1" ).append( "<div class=tiles>" + "<img data-src=images/WhatsApp/" + i + ".jpg>" + "</div>");
   }
+

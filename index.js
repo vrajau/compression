@@ -46,64 +46,82 @@ $('#arrowToggle').on('click', function () {
 window.addEventListener('click', function (e) {
   $('#L15').on('input', function () {
     $('#layer15').css('opacity', $(this).val());
+    $('#minimap15').css('opacity', $(this).val());
   });
 
   $('#L14').on('input', function () {
     $('#layer14').css('opacity', $(this).val());
+    $('#minimap14').css('opacity', $(this).val());
   });
 
   $('#L13').on('input', function () {
     $('#layer13').css('opacity', $(this).val());
+    $('#minimap13').css('opacity', $(this).val());
   });
 
   $('#L12').on('input', function () {
     $('#layer12').css('opacity', $(this).val());
+    $('#minimap12').css('opacity', $(this).val());
   });
 
   $('#L11').on('input', function () {
     $('#layer11').css('opacity', $(this).val());
+    $('#minimap11').css('opacity', $(this).val());
   });
 
   $('#L10').on('input', function () {
     $('#layer10').css('opacity', $(this).val());
+    $('#minimap10').css('opacity', $(this).val());
   });
 
   $('#L9').on('input', function () {
     $('#layer9').css('opacity', $(this).val());
+    $('#minimap9').css('opacity', $(this).val());
   });
 
   $('#L8').on('input', function () {
     $('#layer8').css('opacity', $(this).val());
+    $('#minimap8').css('opacity', $(this).val());
   })
 
   $('#L7').on('input', function () {
     $('#layer7').css('opacity', $(this).val());
+    $('#minimap7').css('opacity', $(this).val());
   })
 
   $('#L6').on('input', function () {
     $('#layer6').css('opacity', $(this).val());
+    $('#minimap6').css('opacity', $(this).val());
   })
 
   $('#L5').on('input', function () {
     $('#layer5').css('opacity', $(this).val());
+    $('#minimap5').css('opacity', $(this).val());
   })
 
   $('#L4').on('input', function () {
     $('#layer4').css('opacity', $(this).val());
+    $('#minimap4').css('opacity', $(this).val());
   })
 
   $('#L3').on('input', function () {
     $('#layer3').css('opacity', $(this).val());
+    $('#minimap3').css('opacity', $(this).val());
   })
 
   $('#L2').on('input', function () {
     $('#layer2').css('opacity', $(this).val());
+    $('#minimap2').css('opacity', $(this).val());
   })
 
   $('#L1').on('input', function () {
     $('#layer1').css('opacity', $(this).val());
+    $('#minimap1').css('opacity', $(this).val());
   })
   
+
+
+
   //------------------------------------------------------------------
 
   for (const select of document.querySelectorAll('.custom-select')) {
