@@ -319,7 +319,7 @@ body{
     z-index: 2;
     top: 20px;
     right: 20px;
-    background-image:url('images/bg/imessage-bg.jpg');
+    background-image:url('images/bg/instagram-bg.jpg');
     background-size: contain;
   }
   #minimap9 {
@@ -330,7 +330,7 @@ body{
     z-index: 2;
     top: 20px;
     right: 20px;
-    background-image:url('images/bg/instagram-bg.jpg');
+    background-image:url('images/bg/pinterest-bg.jpg');
     background-size: contain;
   }
   #minimap8 {
@@ -341,7 +341,7 @@ body{
     z-index: 2;
     top: 20px;
     right: 20px;
-    background-image:url('images/bg/pinterest-bg.jpg');
+    background-image:url('images/bg/reddit-bg.jpg');
     background-size: contain;
   }
   #minimap7 {
@@ -352,7 +352,7 @@ body{
     z-index: 2;
     top: 20px;
     right: 20px;
-    background-image:url('images/bg/reddit-bg.jpg');
+    background-image:url('images/bg/slack-bg.jpg');
     background-size: contain;
   }
   #minimap6 {
@@ -363,7 +363,7 @@ body{
     z-index: 2;
     top: 20px;
     right: 20px;
-    background-image:url('images/bg/slack-bg.jpg');
+    background-image:url('images/bg/telegram-bg.jpg');
     background-size: contain;
   }
   #minimap5 {
@@ -374,7 +374,7 @@ body{
     z-index: 2;
     top: 20px;
     right: 20px;
-    background-image:url('images/bg/telegram-bg.jpg');
+    background-image:url('images/bg/imessage-bg.jpg');
     background-size: contain;
   }
   #minimap4 {
